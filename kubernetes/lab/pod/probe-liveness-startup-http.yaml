@@ -18,5 +18,5 @@ spec:
       httpGet:
         path: /healthz
         port: 8080
-      failureThreshold: 30
-      periodSeconds: 10
+      failureThreshold: 90
+      periodSeconds: 30
